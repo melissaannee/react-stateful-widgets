@@ -74,7 +74,7 @@ export default function Counter() {
 		color: count % 2 === 0 ? "royalblue" : "crimson",
 	};
 
-	const result = count % 2 === 0 ? "even" : "odd";
+	const result = count % 2 === 0 ? "EVEN" : "ODD";
 
 	/* STEP 3 */
 	return (
