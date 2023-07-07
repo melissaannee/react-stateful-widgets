@@ -74,11 +74,14 @@ export default function Counter() {
 		color: count % 2 === 0 ? "royalblue" : "crimson",
 	};
 
+	const result = count % 2 === 0 ? "even" : "odd";
+
+	/* STEP 3 */
 	return (
 		<div className="widget-counter container">
 			<h2>Counter</h2>
 			<div id="count" style={style}>
-				Number 0 is even {/* STEP 3 */}
+				Number {count} is {result}
 			</div>
 			<div>
 				<button id="increment" onClick={increment}>
